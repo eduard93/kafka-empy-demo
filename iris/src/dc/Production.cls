@@ -11,7 +11,7 @@ XData ProductionDefinition
   <Item Name="dc.KafkaProducer" Category="" ClassName="dc.KafkaProducer" PoolSize="1" Enabled="true" Foreground="false" Comment="" LogTraceEvents="false" Schedule="">
     <Setting Target="Host" Name="Servers">kafka:29092</Setting>
   </Item>
-  <Item Name="dc.KafkaConsumer" Category="" ClassName="dc.KafkaConsumer" PoolSize="1" Enabled="true" Foreground="false" Comment="" LogTraceEvents="true" Schedule="">
+  <Item Name="dc.KafkaConsumer" Category="" ClassName="dc.KafkaConsumer" PoolSize="1" Enabled="false" Foreground="false" Comment="" LogTraceEvents="true" Schedule="">
     <Setting Target="Host" Name="Topic">test</Setting>
     <Setting Target="Host" Name="Servers">kafka:29092</Setting>
     <Setting Target="Host" Name="TargetConfigNames">BP</Setting>
