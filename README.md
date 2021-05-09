@@ -12,9 +12,9 @@ Demo showcasing InterSystems IRIS integration with Kafka via Embedded Python
 2. Execute:
 ```
 git clone https://github.com/eduard93/kafka-empy-demo.git
-cd kafka-empy-dem
+cd kafka-empy-demo
 ```
-3. Place `iris.key` in `kafka-empy-dem` folder.
+3. Copy a valid `iris.key` in `kafka-empy-demo` folder.
 4. Execute
 docker-compose pull
 docker-compose up -d
